@@ -1,35 +1,38 @@
+//czemu dodawanie nie działa? zmienne var var let?
+//parseInt czym ty jestes?
 
-let liczba = prompt("co chcesz robic?");
+
+var liczba = prompt("co chcesz robic?");
 if (liczba == 1) {
-        let id = 1;
-        let x = prompt("podaj X");
-        let y = prompt("podaj Y");
-        let dodawanie = x+y;
+        var id = 1;
+        var x = prompt("podaj X");
+        var y = prompt("podaj Y");
+        var dodawanie = parseInt(x) + parseInt(y);
 
-        document.write("Wynik to: " + dodawanie);
+        document.write("<b>Wynik dodawania to: </b>" + dodawanie);
 }
 else if (liczba == 2) {
-        let id = 2;
-        let x = prompt("podaj X");
-        let y = prompt("podaj Y");
-        let odejmowanie = x-y;
+        var id = 2;
+        var x = prompt("podaj X");
+        var y = prompt("podaj Y");
+        var odejmowanie = x-y;
 
-        document.write("Wynik to: " + odejmowanie);
+        document.write("<b>Wynik odejmowania to: </b>" + odejmowanie);
 }
 else if (liczba == 3) {
-        let id = 3;
-        let x = prompt("podaj X");
-        let y = prompt("podaj Y");
-        let iloczyn = x*y;
+        var id = 3;
+        var x = prompt("podaj X");
+        var y = prompt("podaj Y");
+        var iloczyn = x*y;
 
-        document.write("Wynik to: " + iloczyn);
+        document.write("<b>Wynik mnożenia to: </b>" + iloczyn);
 }
 else if (liczba == 4) {
-        let id = 4;
-        let x = prompt("podaj X");
-        let y = prompt("podaj Y");
-        let iloraz = x/y;
+        var id = 4;
+        var x = prompt("podaj X");
+        var y = prompt("podaj Y");
+        var iloraz = x/y;
 
-        document.write("<b>Wynik to: </b>" + iloraz);
+        document.write("<b>Wynik dzielenia to: </b>" + iloraz);
 }
 
