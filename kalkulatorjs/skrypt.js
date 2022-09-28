@@ -1,4 +1,4 @@
-//czemu dodawanie nie działa? zmienne var var let?
+//czemu dodawanie nie działa? zmienne var const let?
 //parseInt czym ty jestes?
 
 
