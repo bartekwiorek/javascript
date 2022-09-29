@@ -14,7 +14,7 @@ function odejmowania() {
         document.write("<b>Wynik odejmowania to: </b>" + odejmowanie);
 }
 
-function mnożenia() {
+function mnozenia() {
         var x = prompt("podaj X");
         var y = prompt("podaj Y");
         var iloczyn = x*y;
