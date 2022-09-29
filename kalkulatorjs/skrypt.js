@@ -29,17 +29,3 @@ function dzielenia() {
 
         document.write("<b>Wynik dzielenia to: </b>" + iloraz);
 }
-
-var liczba = prompt("co chcesz robic?");
-        if (liczba == 1) {
-                dodawania();
-}
-        else if (liczba == 2) {
-                odejmowania();
-}
-        else if (liczba == 3) {
-                mnożenia();
-}
-        else if (liczba == 4) {
-                dzielenia();
-}
